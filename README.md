@@ -10,7 +10,7 @@ With the development of big data, deep learning has made remarkable progress on 
 
 # Architecture
 
-![arch](imgsrchitecture.png)
+![arch](./imgs/architecture.png)
 
 # Environment
 
@@ -32,4 +32,4 @@ For example: `python train.py -mnist`
 
 # Fusion Results
 
-![vis](imgsis.png)
+![vis](./imgs/vis.png)
