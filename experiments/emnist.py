@@ -1,0 +1,31 @@
+from .default import Experiment
+
+emnist = Experiment(
+    arch='cnn',
+    hidden_dim=288,
+    verbose=False,
+    log_dir='./logs/extract_hidden_mnist/simsiam',
+    device='cuda',
+    extra_record=True,
+    extra_hidden=True,
+    extra_hidden_intervals=5,
+    opt='adam',
+    epochs=100,
+    lr=1e-3,
+    batch_size=100,
+    cluster_hidden_dim=128,
+    ds_name='emnist',
+    img_size=28,
+    views=2,
+    clustering_loss_type='ddc',
+    num_cluster=10,
+    fusion_act='relu',
+    use_bn=True,
+    contrastive_type='simsiam',
+    projection_layers=2,
+    projection_dim=288,
+    prediction_hidden_dim=2,  # Just for simsiam.
+    contrastive_lambda=0.01,
+    temperature=0.1,
+    seed=0,
+)
