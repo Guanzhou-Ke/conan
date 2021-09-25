@@ -1,8 +1,9 @@
 # CONAN: Contrastive Fusion Networks for Multi-view Clustering
 The official repos of "CONAN: Contrastive Fusion Networks for Multi-view Clustering".
 
-Submitted at: [IEEE BigData 2021](https://bigdataieee.org/BigData2021/index.html)
-Status: Submission.
+- Submitted at: [IEEE BigData 2021](https://bigdataieee.org/BigData2021/index.html)
+
+- Status: under review.
 
 # Abstract
 
