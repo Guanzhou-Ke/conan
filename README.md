@@ -3,7 +3,7 @@ The official repos of "CONAN: Contrastive Fusion Networks for Multi-view Cluster
 
 - Submitted at: [IEEE BigData 2021](https://bigdataieee.org/BigData2021/index.html)
 
-- Status: under review.
+- Status: Accepted (short paper).
 
 # Abstract
 
