@@ -34,3 +34,24 @@ For example: `python train.py -mnist`
 # Fusion Results
 
 ![vis](./imgs/vis.png)
+
+# Citation
+
+```
+@inproceedings{CONAN,
+  author    = {Guanzhou Ke and
+               Zhiyong Hong and
+               Zhiqiang Zeng and
+               Zeyi Liu and
+               Yangjie Sun and
+               Yannan Xie},
+  title     = {{CONAN:} Contrastive Fusion Networks for Multi-view Clustering},
+  booktitle = {2021 {IEEE} International Conference on Big Data (Big Data), Orlando,
+               FL, USA, December 15-18, 2021},
+  pages     = {653--660},
+  publisher = {{IEEE}},
+  year      = {2021},
+  url       = {https://doi.org/10.1109/BigData52589.2021.9671851},
+  doi       = {10.1109/BigData52589.2021.9671851},
+}
+```
